@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: serviceLinkText
+instructions: 'Text below the description. The link selects this service in the appointment form.'
+name: 'Appointment link text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 120
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

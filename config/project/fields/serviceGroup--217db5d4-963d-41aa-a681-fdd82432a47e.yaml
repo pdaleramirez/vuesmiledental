@@ -1,0 +1,38 @@
+columnSuffix: null
+handle: serviceGroup
+instructions: 'Choose the homepage filter for this service.'
+name: 'Care category'
+searchable: false
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Maintain
+        -
+          - value
+          - Maintain
+        -
+          - default
+          - true
+    -
+      __assoc__:
+        -
+          - label
+          - Restore
+        -
+          - value
+          - Restore
+    -
+      __assoc__:
+        -
+          - label
+          - Brighten
+        -
+          - value
+          - Brighten
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

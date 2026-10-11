@@ -1,0 +1,37 @@
+columnSuffix: null
+handle: homepageHeroImage
+instructions: 'Select or upload the main image. Use a portrait image for the existing layout.'
+name: 'Hero image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  branchLimit: null
+  defaultPlacement: end
+  defaultUploadLocationSource: 'volume:ccef93b9-aa89-4358-89a9-5fc20ec4d15c' # Homepage images
+  defaultUploadLocationSubpath: null
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: null
+  restrictedLocationSubpath: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:ccef93b9-aa89-4358-89a9-5fc20ec4d15c' # Homepage images
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Assets

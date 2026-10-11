@@ -1,0 +1,19 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 9c26be21-edc4-4744-ac9c-dee31cbdf798 # Dental service
+handle: services
+maxAuthors: 1
+name: Services
+propagationMethod: all
+siteSettings:
+  63eb6f07-df20-43fc-9973-4e1f14761fe0: # Vuesmiledental Ddev
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: f093ad1e-461b-4b77-9569-dce802014ba0
+type: structure

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+## Description: Run npm in the Nuxt frontend directory
+## Usage: npm [arguments]
+## Example: ddev npm run generate
+set -euo pipefail
+cd /var/www/html/frontend
+exec npm "$@"

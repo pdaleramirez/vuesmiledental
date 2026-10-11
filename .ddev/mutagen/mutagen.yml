@@ -1,0 +1,21 @@
+# Project-owned sync configuration: generated frontend files stay platform-local.
+sync:
+  defaults:
+    mode: "two-way-resolved"
+    stageMode: "neighboring"
+    ignore:
+      paths:
+        - "/.git"
+        - "/.tarballs"
+        - "/.ddev/db_snapshots"
+        - "/.ddev/.importdb*"
+        - ".DS_Store"
+        - ".idea"
+        - "/frontend/node_modules"
+        - "/frontend/.nuxt"
+        - "/frontend/.output"
+        - "/frontend/dist"
+        - "/web/images"
+        - "/web/cpresources"
+    symlink:
+      mode: "posix-raw"

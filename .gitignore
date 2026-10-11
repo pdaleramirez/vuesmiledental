@@ -1,4 +1,45 @@
-# Craft 2 Storage (https://craftcms.com/support/craft-storage-gitignore)
-# not necessary for Craft 3 (https://github.com/craftcms/craft/issues/26)
+/.env
+/.env.*
+!/.env.example.dev
+!/.env.example.staging
+!/.env.example.production
+/.idea/
+# Installed dependencies at any depth; keep Composer/npm manifests and lockfiles.
+vendor/
+node_modules/
+/.DS_Store
+**/.DS_Store
+/frontend/node_modules/
+/frontend/.nuxt/
+/frontend/.output/
+/frontend/dist
+/frontend/.env
+/frontend/.env.*
+!/frontend/.env.example
+/frontend/.data/
+/frontend/.cache/
+/frontend/*.log
+/storage/*
+!/storage/.gitkeep
+/web/cpresources/*
+!/web/cpresources/.gitkeep
+/web/_nuxt/
+/web/api/_content/
+/web/index.html*
+/web/200.html*
+/web/404.html*
+/config/license.key*
+
+# Generated Nuxt payloads and copied images (source images are in frontend/public).
+/web/_payload.json*
+/web/images/
+# Craft uploads are content; transfer them separately with the database.
+/web/uploads/
+# Local screenshots and database exports.
+/outputs/
+*.sql
+*.sql.gz
+*.dump
+# Legacy Craft storage rule from the repository's initial commit.
 /craft/storage/*
 !/craft/storage/rebrand

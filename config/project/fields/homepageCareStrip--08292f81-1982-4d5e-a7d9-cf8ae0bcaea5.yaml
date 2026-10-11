@@ -1,0 +1,41 @@
+columnSuffix: null
+handle: homepageCareStrip
+instructions: 'Add, remove, and drag rows to reorder. Use plain text; links can be https URLs or page anchors.'
+name: 'Care strip'
+searchable: false
+settings:
+  addRowLabel: 'Add item'
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Icon (tooth, chat, pin, sparkle, shield, clock)'
+            -
+              - handle
+              - icon
+            -
+              - type
+              - multiline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Text
+            -
+              - handle
+              - text
+            -
+              - type
+              - multiline
+  maxRows: null
+  minRows: null
+  staticRows: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

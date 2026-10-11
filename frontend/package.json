@@ -1,0 +1,41 @@
+{
+  "name": "vuesmiledental",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "clean": "rm -rf .nuxt .output node_modules/.cache",
+    "build:clean": "npm run clean && nuxt build",
+    "generate": "nuxt generate && npm run copy-files",
+    "generate:prod": "dotenv -e .env.production -- nuxt generate && npm run copy-files",
+    "generate:staging": "dotenv -e .env.staging -- nuxt generate && npm run copy-files",
+    "copy-files": "node scripts/copy-static.mjs"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.12.1",
+    "@nuxt/ui": "^2.17.0",
+    "dotenv-cli": "^8.0.0",
+    "nuxt": "^3.10.0",
+    "nuxt-easy-lightbox": "^1.0.2",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.1.3",
+    "@nuxt/image": "^1.10.0",
+    "@pinia/nuxt": "^0.5.1",
+    "@vuepic/vue-datepicker": "^8.7.0",
+    "autoprefixer": "^10.4.17",
+    "axios": "^1.6.8",
+    "glob": "^10.3.12",
+    "ncp": "^2.0.0",
+    "ohmyfetch": "^0.4.21",
+    "pinia": "^2.1.7",
+    "postcss": "^8.4.33",
+    "vue-awesome-paginate": "^1.2.0",
+    "vue-cookies": "^1.8.4"
+  }
+}

@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: serviceDescription
+instructions: 'Short explanation shown on the service card.'
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 600
+  code: false
+  initialRows: 3
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

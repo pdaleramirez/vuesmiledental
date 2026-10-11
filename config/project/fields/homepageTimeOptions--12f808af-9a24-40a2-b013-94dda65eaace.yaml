@@ -1,0 +1,28 @@
+columnSuffix: null
+handle: homepageTimeOptions
+instructions: 'Add, remove, and drag rows to reorder. Use plain text; links can be https URLs or page anchors.'
+name: 'Time options'
+searchable: false
+settings:
+  addRowLabel: 'Add item'
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Time option'
+            -
+              - handle
+              - label
+            -
+              - type
+              - multiline
+  maxRows: null
+  minRows: null
+  staticRows: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+## Description: Run the Craft CMS CLI from the project root
+## Usage: craft [arguments]
+## Example: ddev craft install/check
+set -euo pipefail
+cd /var/www/html
+exec php craft "$@"

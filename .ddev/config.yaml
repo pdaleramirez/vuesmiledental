@@ -1,0 +1,33 @@
+name: vuesmiledental
+type: craftcms
+docroot: web
+php_version: "8.2"
+webserver_type: nginx-fpm
+xdebug_enabled: false
+additional_hostnames: []
+additional_fqdns: []
+database:
+  type: mysql
+  version: "8.0"
+use_dns_when_possible: true
+composer_version: "2"
+nodejs_version: "22"
+web_environment: []
+upload_dirs:
+  - images
+  - cpresources
+fail_on_hook_fail: true
+web_extra_exposed_ports:
+  - name: nuxt
+    container_port: 3000
+    http_port: 2999
+    https_port: 3000
+web_extra_daemons:
+  - name: nuxt
+    # Replace DDEV's command wrapper so Supervisor stops the actual Nuxt process.
+    command: exec bash /var/www/html/.ddev/scripts/frontend-dev.sh
+    directory: /var/www/html/frontend
+hooks:
+  post-start:
+    - exec: php .ddev/scripts/create-env.php
+    - exec: composer install --no-interaction --prefer-dist

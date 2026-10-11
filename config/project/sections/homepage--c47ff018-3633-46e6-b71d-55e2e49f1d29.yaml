@@ -1,0 +1,16 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 7aefd384-ee9a-456a-bc77-085e1fb68a4e # Homepage
+handle: homepage
+maxAuthors: 1
+name: Homepage
+propagationMethod: all
+siteSettings:
+  63eb6f07-df20-43fc-9973-4e1f14761fe0: # Vuesmiledental Ddev
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single

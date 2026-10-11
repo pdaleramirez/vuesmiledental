@@ -1,0 +1,1113 @@
+[
+  {
+    "tab": "Brand & navigation",
+    "key": "clinicName",
+    "label": "Clinic name",
+    "kind": "text",
+    "value": "VueSmile Dental Clinic",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "locationShort",
+    "label": "Location short",
+    "kind": "text",
+    "value": "Cordova, Cebu",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "announcementText",
+    "label": "Announcement text",
+    "kind": "text",
+    "value": "A little care. A brighter smile.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "hoursShort",
+    "label": "Hours short",
+    "kind": "text",
+    "value": "Mon–Sat · 9 AM–5 PM",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "facebookUrl",
+    "label": "Facebook url",
+    "kind": "text",
+    "value": "https://www.facebook.com/vuesmiledental",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "messengerUrl",
+    "label": "Messenger url",
+    "kind": "text",
+    "value": "https://m.me/vuesmiledental",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "headerCta",
+    "label": "Header cta",
+    "kind": "text",
+    "value": "Request a visit",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "skipLink",
+    "label": "Skip link",
+    "kind": "text",
+    "value": "Skip to content",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "homeLabel",
+    "label": "Home label",
+    "kind": "text",
+    "value": "VueSmile Dental Clinic home",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "mainNavLabel",
+    "label": "Main nav label",
+    "kind": "text",
+    "value": "Main navigation",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "mobileNavLabel",
+    "label": "Mobile nav label",
+    "kind": "text",
+    "value": "Mobile navigation",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "openMenu",
+    "label": "Open menu",
+    "kind": "text",
+    "value": "Open menu",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "closeMenu",
+    "label": "Close menu",
+    "kind": "text",
+    "value": "Close menu",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "logoAlt",
+    "label": "Logo alt",
+    "kind": "text",
+    "value": "VueSmile Dental Clinic",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "logoImage",
+    "label": "Clinic logo",
+    "kind": "asset",
+    "value": "vuesmile-logo-original.jpg",
+    "instructions": "Select or upload the clinic logo. The original photo uses the crop option below."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "cropOriginalLogo",
+    "label": "Crop original logo photo",
+    "kind": "boolean",
+    "value": true,
+    "instructions": "Enabled for the seeded photo with white margins. Disable for a new tightly cropped logo."
+  },
+  {
+    "tab": "Brand & navigation",
+    "key": "navigation",
+    "label": "Navigation",
+    "kind": "table",
+    "columns": {
+      "label": "Link text",
+      "href": "Link destination"
+    },
+    "value": [
+      {
+        "label": "Our services",
+        "href": "#services"
+      },
+      {
+        "label": "Our approach",
+        "href": "#approach"
+      },
+      {
+        "label": "Your visit",
+        "href": "#your-visit"
+      },
+      {
+        "label": "Find us",
+        "href": "#find-us"
+      }
+    ],
+    "instructions": "Add, remove, and drag rows to reorder. Use plain text; links can be https URLs or page anchors."
+  },
+  {
+    "tab": "SEO",
+    "key": "seoTitle",
+    "label": "Seo title",
+    "kind": "text",
+    "value": "VueSmile Dental Clinic | Dental care in Cordova, Cebu",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "SEO",
+    "key": "seoDescription",
+    "label": "Seo description",
+    "kind": "text",
+    "value": "A healthier smile starts with thoughtful care. Explore VueSmile Dental Clinic’s services in Cordova, Cebu, and request your visit through Messenger.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "SEO",
+    "key": "ogTitle",
+    "label": "Og title",
+    "kind": "text",
+    "value": "VueSmile Dental Clinic — care for your smile",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "SEO",
+    "key": "ogDescription",
+    "label": "Og description",
+    "kind": "text",
+    "value": "Your neighborhood dental clinic in Cordova, Cebu. Explore our services and plan your visit.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Hero",
+    "key": "heroEyebrow",
+    "label": "Hero eyebrow",
+    "kind": "text",
+    "value": "YOUR NEIGHBORHOOD DENTAL CLINIC",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Hero",
+    "key": "heroTitle",
+    "label": "Hero title",
+    "kind": "text",
+    "value": "Good care.\nGreat ",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Hero",
+    "key": "heroEmphasis",
+    "label": "Hero emphasis",
+    "kind": "text",
+    "value": "smiles.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Hero",
+    "key": "heroDescription",
+    "label": "Hero description",
+    "kind": "text",
+    "value": "A healthier smile starts with a little care. Discover thoughtful dental care, right here in Cordova, Cebu.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Hero",
+    "key": "heroPrimaryText",
+    "label": "Hero primary text",
+    "kind": "text",
+    "value": "Let’s plan your visit",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Hero",
+    "key": "heroSecondaryText",
+    "label": "Hero secondary text",
+    "kind": "text",
+    "value": "Explore our services",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Hero",
+    "key": "heroNoteTitle",
+    "label": "Hero note title",
+    "kind": "text",
+    "value": "New here? You’re welcome.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Hero",
+    "key": "heroNoteText",
+    "label": "Hero note text",
+    "kind": "text",
+    "value": "Start with a conversation. We’ll help you plan your visit.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Hero",
+    "key": "heroImageAlt",
+    "label": "Hero image alt",
+    "kind": "text",
+    "value": "An ivory tooth sculpture with a gold dental mirror and toothbrush in warm sunlight",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Hero",
+    "key": "heroCaptionTitle",
+    "label": "Hero caption title",
+    "kind": "text",
+    "value": "Your smile, our care.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Hero",
+    "key": "heroCaptionText",
+    "label": "Hero caption text",
+    "kind": "text",
+    "value": "A warm welcome at VueSmile",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Hero",
+    "key": "heroSideLabel",
+    "label": "Hero side label",
+    "kind": "text",
+    "value": "VUESMILE DENTAL CLINIC · CORDOVA",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Hero",
+    "key": "heroImage",
+    "label": "Hero image",
+    "kind": "asset",
+    "value": "vuesmile-dental-still-life.png",
+    "instructions": "Select or upload the main image. Use a portrait image for the existing layout."
+  },
+  {
+    "tab": "Hero",
+    "key": "careStrip",
+    "label": "Care strip",
+    "kind": "table",
+    "columns": {
+      "icon": "Icon (tooth, chat, pin, sparkle, shield, clock)",
+      "text": "Text"
+    },
+    "value": [
+      {
+        "icon": "tooth",
+        "text": "Care for everyday smiles"
+      },
+      {
+        "icon": "chat",
+        "text": "A conversation comes first"
+      },
+      {
+        "icon": "pin",
+        "text": "Close to home in Cordova"
+      }
+    ],
+    "instructions": "Add, remove, and drag rows to reorder. Use plain text; links can be https URLs or page anchors."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "servicesEyebrow",
+    "label": "Services eyebrow",
+    "kind": "text",
+    "value": "OUR DENTAL SERVICES",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "servicesTitle",
+    "label": "Services title",
+    "kind": "text",
+    "value": "A little care goes\na ",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "servicesEmphasis",
+    "label": "Services emphasis",
+    "kind": "text",
+    "value": "long way.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "servicesDescription",
+    "label": "Services description",
+    "kind": "text",
+    "value": "From your regular checkup to restoring your smile,\nfind a good place to start.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "filterLabel",
+    "label": "Filter label",
+    "kind": "text",
+    "value": "Filter dental services",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "allCareLabel",
+    "label": "All care label",
+    "kind": "text",
+    "value": "All care",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "maintainLabel",
+    "label": "Maintain label",
+    "kind": "text",
+    "value": "Maintain",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "restoreLabel",
+    "label": "Restore label",
+    "kind": "text",
+    "value": "Restore",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "brightenLabel",
+    "label": "Brighten label",
+    "kind": "text",
+    "value": "Brighten",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "servicesShown",
+    "label": "Services shown",
+    "kind": "text",
+    "value": "services shown",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "servicesLoading",
+    "label": "Services loading",
+    "kind": "text",
+    "value": "Loading our dental services…",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "servicesError",
+    "label": "Services error",
+    "kind": "text",
+    "value": "We couldn’t load our services. Please try again or message the clinic.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "retryText",
+    "label": "Retry text",
+    "kind": "text",
+    "value": "Try again",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "servicesEmptyCategory",
+    "label": "Services empty category",
+    "kind": "text",
+    "value": "No services in this category right now.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "servicesEmpty",
+    "label": "Services empty",
+    "kind": "text",
+    "value": "Message the clinic to ask about available dental care.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "serviceAskLabel",
+    "label": "Service ask label",
+    "kind": "text",
+    "value": "Ask about {service}",
+    "instructions": "Use {service} for the service name."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "serviceHelpText",
+    "label": "Service help text",
+    "kind": "text",
+    "value": "Not sure what you need?",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Services introduction",
+    "key": "serviceHelpLink",
+    "label": "Service help link",
+    "kind": "text",
+    "value": "Let’s start with a consultation.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Our approach",
+    "key": "storyTop",
+    "label": "Story top",
+    "kind": "text",
+    "value": "A LITTLE CARE, CLOSE TO HOME",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Our approach",
+    "key": "storyTitle",
+    "label": "Story title",
+    "kind": "text",
+    "value": "Your smile,\n",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Our approach",
+    "key": "storyEmphasis",
+    "label": "Story emphasis",
+    "kind": "text",
+    "value": "our care.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Our approach",
+    "key": "storyLocation",
+    "label": "Story location",
+    "kind": "text",
+    "value": "CORDOVA, CEBU",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Our approach",
+    "key": "storyLabel",
+    "label": "Story label",
+    "kind": "text",
+    "value": "VueSmile Dental Clinic, your smile our care",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Our approach",
+    "key": "approachEyebrow",
+    "label": "Approach eyebrow",
+    "kind": "text",
+    "value": "THE VUESMILE APPROACH",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Our approach",
+    "key": "approachTitle",
+    "label": "Approach title",
+    "kind": "text",
+    "value": "More than a visit.\nA step toward\n",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Our approach",
+    "key": "approachEmphasis",
+    "label": "Approach emphasis",
+    "kind": "text",
+    "value": "a healthier smile.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Our approach",
+    "key": "approachDescription",
+    "label": "Approach description",
+    "kind": "text",
+    "value": "Whether it’s your first visit or you’re returning for care, bring your questions. A conversation is a good place to begin.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Our approach",
+    "key": "approachLink",
+    "label": "Approach link",
+    "kind": "text",
+    "value": "Get to know us on Facebook",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Our approach",
+    "key": "approachPoints",
+    "label": "Approach points",
+    "kind": "table",
+    "columns": {
+      "title": "Title",
+      "description": "Description"
+    },
+    "value": [
+      {
+        "title": "Space for your questions",
+        "description": "Tell us what’s on your mind and what you’d like to discuss with the dentist."
+      },
+      {
+        "title": "A plan you can understand",
+        "description": "Use your consultation to talk through your options, treatment steps, and fees."
+      },
+      {
+        "title": "A smile worth caring for",
+        "description": "From routine visits to your next step in treatment, keep your dental care in the conversation."
+      }
+    ],
+    "instructions": "Add, remove, and drag rows to reorder. Use plain text; links can be https URLs or page anchors."
+  },
+  {
+    "tab": "Your visit",
+    "key": "visitEyebrow",
+    "label": "Visit eyebrow",
+    "kind": "text",
+    "value": "YOUR FIRST VISIT",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Your visit",
+    "key": "visitTitle",
+    "label": "Visit title",
+    "kind": "text",
+    "value": "Let’s take it ",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Your visit",
+    "key": "visitEmphasis",
+    "label": "Visit emphasis",
+    "kind": "text",
+    "value": "one step at a time.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Your visit",
+    "key": "visitDescription",
+    "label": "Visit description",
+    "kind": "text",
+    "value": "A simple start to caring for your smile.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Your visit",
+    "key": "visitCta",
+    "label": "Visit cta",
+    "kind": "text",
+    "value": "Start with a hello",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Your visit",
+    "key": "visitSteps",
+    "label": "Visit steps",
+    "kind": "table",
+    "columns": {
+      "title": "Title",
+      "description": "Description"
+    },
+    "value": [
+      {
+        "title": "Say hello",
+        "description": "Message us with your preferred date, time, and the care you’re interested in."
+      },
+      {
+        "title": "Confirm your visit",
+        "description": "The clinic will reply to confirm availability and help you prepare."
+      },
+      {
+        "title": "Talk it through",
+        "description": "Meet with the dentist, ask your questions, and discuss your next steps."
+      }
+    ],
+    "instructions": "Add, remove, and drag rows to reorder. Use plain text; links can be https URLs or page anchors."
+  },
+  {
+    "tab": "Questions",
+    "key": "faqEyebrow",
+    "label": "Faq eyebrow",
+    "kind": "text",
+    "value": "A FEW HELPFUL ANSWERS",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Questions",
+    "key": "faqTitle",
+    "label": "Faq title",
+    "kind": "text",
+    "value": "A little clarity.\n",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Questions",
+    "key": "faqEmphasis",
+    "label": "Faq emphasis",
+    "kind": "text",
+    "value": "A little comfort.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Questions",
+    "key": "faqDescription",
+    "label": "Faq description",
+    "kind": "text",
+    "value": "Getting ready for a visit? Here’s a good place to start.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Questions",
+    "key": "faqCta",
+    "label": "Faq cta",
+    "kind": "text",
+    "value": "Ask us a question",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Questions",
+    "key": "faqs",
+    "label": "Faqs",
+    "kind": "table",
+    "columns": {
+      "question": "Question",
+      "answer": "Answer"
+    },
+    "value": [
+      {
+        "question": "How do I request an appointment?",
+        "answer": "Message VueSmile Dental Clinic on Facebook with your preferred date and time. The clinic will reply to confirm your schedule. You can prepare a message using the appointment section below."
+      },
+      {
+        "question": "What if I’m not sure which service I need?",
+        "answer": "Choose “Consultation — help me choose” when preparing your message. Tell the clinic you would like a consultation, and discuss your questions with the dentist during your visit."
+      },
+      {
+        "question": "What should I bring to my first visit?",
+        "answer": "Ask the clinic when you confirm your appointment. If you have previous dental records or questions about your visit, mention them in your message so the clinic can guide you."
+      },
+      {
+        "question": "How can I ask about treatment fees?",
+        "answer": "Send the clinic a message about the service you are interested in. A consultation may be needed before the dentist can provide a treatment plan and fee estimate."
+      },
+      {
+        "question": "Where is the clinic located?",
+        "answer": "You can find VueSmile Dental Clinic at Golden Meadows, Gabi Road, Cordova, Cebu, 6017. Use the directions link below, or message the clinic for help finding the entrance."
+      }
+    ],
+    "instructions": "Add, remove, and drag rows to reorder. Use plain text; links can be https URLs or page anchors."
+  },
+  {
+    "tab": "Appointment",
+    "key": "appointmentEyebrow",
+    "label": "Appointment eyebrow",
+    "kind": "text",
+    "value": "MAKE TIME FOR YOUR SMILE",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "appointmentTitle",
+    "label": "Appointment title",
+    "kind": "text",
+    "value": "Your next visit\nstarts with ",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "appointmentEmphasis",
+    "label": "Appointment emphasis",
+    "kind": "text",
+    "value": "hello.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "appointmentDescription",
+    "label": "Appointment description",
+    "kind": "text",
+    "value": "Let us know what you have in mind. Prepare a short message, then send it to the clinic through Messenger.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "appointmentDays",
+    "label": "Appointment days",
+    "kind": "text",
+    "value": "Monday–Saturday",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "appointmentHours",
+    "label": "Appointment hours",
+    "kind": "text",
+    "value": "9:00 AM–5:00 PM",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "appointmentDirectLink",
+    "label": "Appointment direct link",
+    "kind": "text",
+    "value": "Prefer to message us directly?",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "formEyebrow",
+    "label": "Form eyebrow",
+    "kind": "text",
+    "value": "LET’S PLAN YOUR VISIT",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "formTitle",
+    "label": "Form title",
+    "kind": "text",
+    "value": "What brings you in?",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "serviceLabel",
+    "label": "Service label",
+    "kind": "text",
+    "value": "I’m interested in",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "consultationOption",
+    "label": "Consultation option",
+    "kind": "text",
+    "value": "Consultation — help me choose",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "dateLabel",
+    "label": "Date label",
+    "kind": "text",
+    "value": "Preferred date",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "optionalLabel",
+    "label": "Optional label",
+    "kind": "text",
+    "value": "(optional)",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "datePlaceholder",
+    "label": "Date placeholder",
+    "kind": "text",
+    "value": "Select a date",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "timeLabel",
+    "label": "Time label",
+    "kind": "text",
+    "value": "Preferred time",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "prepareButton",
+    "label": "Prepare button",
+    "kind": "text",
+    "value": "Prepare my message",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "formNote",
+    "label": "Form note",
+    "kind": "text",
+    "value": "Your visit is confirmed only when the clinic replies. These selections stay in your browser until you send them.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "messageReadyLabel",
+    "label": "Message ready label",
+    "kind": "text",
+    "value": "Your message is ready",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "copyButton",
+    "label": "Copy button",
+    "kind": "text",
+    "value": "Copy message",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "messengerButton",
+    "label": "Messenger button",
+    "kind": "text",
+    "value": "Open Messenger",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "copyInstructions",
+    "label": "Copy instructions",
+    "kind": "text",
+    "value": "Copy this message, then paste it in Messenger to send your request.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "copySuccess",
+    "label": "Copy success",
+    "kind": "text",
+    "value": "Message copied. Paste it in Messenger to send your request.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "copyFallback",
+    "label": "Copy fallback",
+    "kind": "text",
+    "value": "Select and copy the message above, then paste it in Messenger.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "nextAvailableDate",
+    "label": "Next available date",
+    "kind": "text",
+    "value": "your next available date",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Appointment",
+    "key": "messageTemplate",
+    "label": "Message template",
+    "kind": "text",
+    "value": "Hi VueSmile! I’d like to request an appointment for {service}. My preferred schedule is {date}, {time}. Could you please confirm availability? Thank you!",
+    "instructions": "Use {service}, {date}, and {time}; the form replaces these with the visitor’s choices. Keep the message asking for confirmation."
+  },
+  {
+    "tab": "Appointment",
+    "key": "timeOptions",
+    "label": "Time options",
+    "kind": "table",
+    "columns": {
+      "label": "Time option"
+    },
+    "value": [
+      {
+        "label": "Any available time"
+      },
+      {
+        "label": "Morning (9 AM–12 PM)"
+      },
+      {
+        "label": "Afternoon (1 PM–5 PM)"
+      }
+    ],
+    "instructions": "Add, remove, and drag rows to reorder. Use plain text; links can be https URLs or page anchors."
+  },
+  {
+    "tab": "Location",
+    "key": "locationEyebrow",
+    "label": "Location eyebrow",
+    "kind": "text",
+    "value": "RIGHT HERE IN YOUR NEIGHBORHOOD",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Location",
+    "key": "locationTitle",
+    "label": "Location title",
+    "kind": "text",
+    "value": "See you\n",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Location",
+    "key": "locationEmphasis",
+    "label": "Location emphasis",
+    "kind": "text",
+    "value": "in Cordova.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Location",
+    "key": "locationDescription",
+    "label": "Location description",
+    "kind": "text",
+    "value": "A little closer to home.\nA little closer to your next smile.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Location",
+    "key": "addressTitle",
+    "label": "Address title",
+    "kind": "text",
+    "value": "Come find us",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Location",
+    "key": "address",
+    "label": "Address",
+    "kind": "text",
+    "value": "Golden Meadows, Gabi Road\nCordova, Cebu, Philippines 6017",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Location",
+    "key": "hoursTitle",
+    "label": "Hours title",
+    "kind": "text",
+    "value": "Make time for your visit",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Location",
+    "key": "hoursDetail",
+    "label": "Hours detail",
+    "kind": "text",
+    "value": "Monday–Saturday · 9 AM–5 PM\nMessage us to confirm your schedule.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Location",
+    "key": "contactTitle",
+    "label": "Contact title",
+    "kind": "text",
+    "value": "Let’s stay in touch",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Location",
+    "key": "contactDescription",
+    "label": "Contact description",
+    "kind": "text",
+    "value": "Questions, appointments, or just a hello.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Location",
+    "key": "facebookLinkText",
+    "label": "Facebook link text",
+    "kind": "text",
+    "value": "VueSmile on Facebook",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Location",
+    "key": "mapQuery",
+    "label": "Map query",
+    "kind": "text",
+    "value": "VueSmile Dental Clinic, Cordova, Cebu",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Location",
+    "key": "mapTitle",
+    "label": "Map title",
+    "kind": "text",
+    "value": "Google Map showing VueSmile Dental Clinic in Cordova, Cebu",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Location",
+    "key": "mapLabel",
+    "label": "Map label",
+    "kind": "text",
+    "value": "VueSmile Dental Clinic",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Location",
+    "key": "mapLinkText",
+    "label": "Map link text",
+    "kind": "text",
+    "value": "Open in Google Maps",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Footer",
+    "key": "footerTagline",
+    "label": "Footer tagline",
+    "kind": "text",
+    "value": "A healthier smile starts\nwith a little care.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Footer",
+    "key": "footerNavLabel",
+    "label": "Footer nav label",
+    "kind": "text",
+    "value": "Footer navigation",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Footer",
+    "key": "copyrightName",
+    "label": "Copyright name",
+    "kind": "text",
+    "value": "VueSmile Dental Clinic",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Footer",
+    "key": "footerNote",
+    "label": "Footer note",
+    "kind": "text",
+    "value": "Made for smiles in Cordova, Cebu.",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Footer",
+    "key": "backToTop",
+    "label": "Back to top",
+    "kind": "text",
+    "value": "Back to top ↑",
+    "instructions": "Plain text. Line breaks are preserved; HTML is not supported."
+  },
+  {
+    "tab": "Footer",
+    "key": "footerNavigation",
+    "label": "Footer navigation",
+    "kind": "table",
+    "columns": {
+      "label": "Link text",
+      "href": "Link destination"
+    },
+    "value": [
+      {
+        "label": "Our services",
+        "href": "#services"
+      },
+      {
+        "label": "Request a visit",
+        "href": "#appointment"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/vuesmiledental"
+      }
+    ],
+    "instructions": "Add, remove, and drag rows to reorder. Use plain text; links can be https URLs or page anchors."
+  }
+]

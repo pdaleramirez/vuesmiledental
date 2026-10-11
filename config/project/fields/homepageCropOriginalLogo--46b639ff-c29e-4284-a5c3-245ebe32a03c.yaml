@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: homepageCropOriginalLogo
+instructions: 'Enabled for the seeded photo with white margins. Disable for a new tightly cropped logo.'
+name: 'Crop original logo photo'
+searchable: false
+settings:
+  default: true
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

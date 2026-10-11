@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: homepageMessageTemplate
+instructions: 'Use {service}, {date}, and {time}; the form replaces these with the visitor’s choices. Keep the message asking for confirmation.'
+name: 'Message template'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 2
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

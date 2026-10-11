@@ -1,0 +1,7 @@
+services:
+  web:
+    volumes:
+      # Keep Linux native npm packages separate from macOS node_modules.
+      - frontend_node_modules:/var/www/html/frontend/node_modules
+volumes:
+  frontend_node_modules:

@@ -1,0 +1,119 @@
+color: null
+fieldLayouts:
+  e17349eb-956f-4a2e-9427-d351fcd81b3e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: 'Service name'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 31bc0ba8-5519-400a-87b6-3e3483831fda
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 217db5d4-963d-41aa-a681-fdd82432a47e # Care category
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 19bdf51e-9344-46e5-814b-33426ae098c6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 04192d8f-b0db-4ab6-b668-25d404163e98 # Description
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1d705023-a22b-48f5-b625-0542694dc526
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 343c95be-ceee-41ad-b5cb-dc5719b09b73 # Card icon
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: da434afe-8c8b-49d2-8ee9-88fba301be05
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 807132e9-9b70-4d27-a190-b6ee2267a54e # Appointment link text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5787976a-0943-4c13-a817-75b06ce0b399
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Service details'
+        uid: 1ab7cc45-9755-450d-a426-0f69a9677257
+        userCondition: null
+handle: dentalService
+hasTitleField: true
+icon: null
+name: 'Dental service'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

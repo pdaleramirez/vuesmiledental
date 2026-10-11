@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: homepageHeroNoteText
+instructions: 'Plain text. Line breaks are preserved; HTML is not supported.'
+name: 'Hero note text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 2
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

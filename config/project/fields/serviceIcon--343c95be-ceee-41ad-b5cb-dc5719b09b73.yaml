@@ -1,0 +1,62 @@
+columnSuffix: null
+handle: serviceIcon
+instructions: 'Choose an icon from the website’s existing icon set.'
+name: 'Card icon'
+searchable: false
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Tooth
+        -
+          - value
+          - tooth
+        -
+          - default
+          - true
+    -
+      __assoc__:
+        -
+          - label
+          - 'Shield / checkup'
+        -
+          - value
+          - shield
+    -
+      __assoc__:
+        -
+          - label
+          - Restoration
+        -
+          - value
+          - restore
+    -
+      __assoc__:
+        -
+          - label
+          - Crown
+        -
+          - value
+          - crown
+    -
+      __assoc__:
+        -
+          - label
+          - 'Smile / dentures'
+        -
+          - value
+          - smile
+    -
+      __assoc__:
+        -
+          - label
+          - 'Sparkle / whitening'
+        -
+          - value
+          - sparkle
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown
