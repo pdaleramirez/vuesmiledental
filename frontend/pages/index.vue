@@ -3,6 +3,9 @@ import VueDatePicker from '@vuepic/vue-datepicker'
 import '@vuepic/vue-datepicker/dist/main.css'
 import type { ServiceGroup } from '~/types/services'
 
+// Craft's homepage redirect lands here; keep that URL valid after Nuxt hydrates.
+definePageMeta({ alias: '/index.html' })
+
 type CareGroup = 'All care' | ServiceGroup
 const { data: content, error: contentError, refresh: refreshContent } = await useHomepageContent()
 const activeGroup = ref<CareGroup>('All care')
