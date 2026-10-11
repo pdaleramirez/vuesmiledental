@@ -39,6 +39,21 @@ API through `NUXT_CRAFT_API_ORIGIN`. In DDEV the API origin is `http://127.0.0.1
 Transfer `frontend/.output/public/` into the server's `web/`, preserving
 `web/index.php`, `web/uploads`, and `web/cpresources`. For tar archives on macOS,
 use `COPYFILE_DISABLE=1 tar --no-xattrs ...` to avoid Apple metadata files.
+DDEV excludes `.output` from host synchronization: export the container's fresh
+output before restarting the dev daemon (Nuxt dev can clear `.output`). Do not
+package a stale `frontend/.output` folder from your Mac.
+
+```sh
+ddev exec supervisorctl stop webextradaemons:nuxt
+ddev exec env NUXT_PUBLIC_SITE_URL=http://13.229.116.230 NUXT_CRAFT_API_ORIGIN=http://127.0.0.1 npm --prefix frontend run generate
+task_export_dir=$(mktemp -d)
+docker cp ddev-vuesmiledental-web:/var/www/html/frontend/.output/public/. "$task_export_dir/"
+ddev exec supervisorctl start webextradaemons:nuxt
+```
+
+Package that exported directory, transfer it over SSH, and extract into the
+server's `web/`. When transferring existing uploads, ensure public image files
+are readable by nginx (directories `755`, files `644`). Keep `.env` at `600`.
 
 The initial deployment copied the local database and uploads. **Do not import
 that development database again for routine releases**: production editor
