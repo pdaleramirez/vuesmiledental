@@ -163,3 +163,41 @@ Craft database plus `web/uploads/homepage` files. The migration is
 `migrations/m261012_000001_create_homepage.php`; it preserves existing editor content.
 Set the server-only `NUXT_CRAFT_API_ORIGIN` to the reachable Craft origin when generating
 outside DDEV. Uploaded images are served by Craft alongside the generated Nuxt files.
+
+## Google Analytics
+
+The **VueSmile Dental Clinic** GA4 property lives under the **Dale** Analytics
+account. Its **VueSmile Website** stream uses `G-ZR7JNZWXR4`, Philippine time,
+and PHP currency. Enhanced measurement is disabled to avoid automatic form,
+search, and outbound-link event collection.
+
+Set these public build variables when generating the live website:
+
+```sh
+NUXT_PUBLIC_SITE_URL=https://vuesmiledental.com \
+NUXT_PUBLIC_GA_MEASUREMENT_ID=G-ZR7JNZWXR4 \
+NUXT_CRAFT_API_ORIGIN=https://your-reachable-craft-origin.example \
+npm run generate
+```
+
+The measurement ID is public. Empty disables Analytics. Since this is a generated
+site, changing EC2 environment variables alone does not update the browser tag;
+regenerate and deploy the static output. No additional npm Analytics package is
+required. See `plugins/analytics.client.ts` and `useAnalyticsConsent.ts` for usage.
+
+Google loads only after the visitor chooses **Allow analytics**. A browser choice
+is remembered for 180 days; **Cookie settings** reopens it. Rejection keeps Google
+unloaded; withdrawal disables collection and clears GA cookies. Ads storage, ad
+personalization, and Google signals are disabled. The plugin runs only on the
+configured live hostname and the homepage (`/` or `/index.html`), outside dev mode.
+
+One explicit homepage view is sent per page load after acceptance. Anchor changes
+are not new pages. URL queries/hashes and referrer paths/queries are excluded.
+Appointment dates, service selections, and message content are never event
+parameters. Keep enhanced measurement off; review any future tracking additions
+before sending data. No Craft admin tag is installed.
+
+Run `node --test tests/analytics.test.mjs` for consent/privacy behavior checks.
+To verify live collection, accept Analytics on the public site and check the
+property's Realtime report. Normal reports may appear later. An ad blocker or a
+rejected choice can prevent that browser from appearing in Analytics.

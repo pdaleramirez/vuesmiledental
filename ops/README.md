@@ -43,7 +43,8 @@ php craft up --interactive=0
 ```
 
 Generate the frontend locally from the same Git revision. Set
-`NUXT_PUBLIC_SITE_URL=https://vuesmiledental.com`; generate against a reachable Craft
+`NUXT_PUBLIC_SITE_URL=https://vuesmiledental.com` and
+`NUXT_PUBLIC_GA_MEASUREMENT_ID=G-ZR7JNZWXR4`; generate against a reachable Craft
 API through `NUXT_CRAFT_API_ORIGIN`. In DDEV the API origin is `http://127.0.0.1`.
 Transfer `frontend/.output/public/` into the server's `web/`, preserving
 `web/index.php`, `web/uploads`, and `web/cpresources`. For tar archives on macOS,
@@ -54,7 +55,7 @@ package a stale `frontend/.output` folder from your Mac.
 
 ```sh
 ddev exec supervisorctl stop webextradaemons:nuxt
-ddev exec env NUXT_PUBLIC_SITE_URL=https://vuesmiledental.com NUXT_CRAFT_API_ORIGIN=http://127.0.0.1 npm --prefix frontend run generate
+ddev exec env NUXT_PUBLIC_SITE_URL=https://vuesmiledental.com NUXT_PUBLIC_GA_MEASUREMENT_ID=G-ZR7JNZWXR4 NUXT_CRAFT_API_ORIGIN=http://127.0.0.1 npm --prefix frontend run generate
 task_export_dir=$(mktemp -d)
 docker cp ddev-vuesmiledental-web:/var/www/html/frontend/.output/public/. "$task_export_dir/"
 ddev exec supervisorctl start webextradaemons:nuxt

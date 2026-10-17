@@ -42,6 +42,9 @@ export default defineNuxtConfig({
     public: {
       siteUrl: '',
       apiBase: '',
+      // Public GA4 ID, baked into generated HTML via NUXT_PUBLIC_GA_MEASUREMENT_ID.
+      // Empty disables Analytics. Local development is excluded by the client plugin.
+      gaMeasurementId: '',
     },
   },
 
